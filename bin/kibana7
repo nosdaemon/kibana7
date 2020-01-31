@@ -46,6 +46,7 @@ kibana_vars=(
     elasticsearch.tribe.url
     elasticsearch.tribe.username
     elasticsearch.url
+    elasticsearch.hosts
     elasticsearch.username
     kibana.defaultAppId
     kibana.index
