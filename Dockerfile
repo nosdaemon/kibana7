@@ -8,7 +8,7 @@ RUN yum -y update
 RUN yum -y clean all
 
 COPY /bin/kibana7 /usr/local/bin/
-RUN chmod 755 /usr/local/bin/kibana6
+RUN chmod 755 /usr/local/bin/kibana7
 RUN usermod --home /usr/share/kibana kibana
 
 USER kibana
